@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+.logo img{
+	width: 178px;
+}
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	height: 100%;
+	align-items: center;
+}
+.nav ul{
+	list-style: none;
+	display: flex;
+}
+.nav li a{
+	text-decoration: none;
+	font-weight: 700;
+	color: #000000;
+}
+.nav li{
+	margin-left: 40px;
+}
+.nav li a:hover{
+	opacity: 0.5;
+}
+/*Header------*/
+.banner-content{
+	margin-top: 37px;
+}
+.banner-content h1{
+	font-size: 44px;
+	font-weight: 600;
+	color: #00000;
+}
+.line{
+	width: 52px;
+	border: 1.5px solid #B7B3B3
+}
+.banner-content .line{
+	margin: 28px 0; 
+}
+.banner-content p{
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 54px;
+}
+.btn{
+	font-size: 16px;	
+	padding: 15px 40px;
+	text-decoration: none;
+}
+.btn-primary{
+	background: #6C63FF;
+	color: #ffffff;
+	border: 1.5px solid #030303;
+	
+}
+.btn-outline{
+	color: #000000;
+	border: 1.5px solid #030303;
+	margin-left: 24px;
+	
+}
+.img-right img{
+	width: 509px;
+}
+.banner-content a:hover{
+	opacity: 0.5;
+}
+/*howitwork----*/
+.title{
+	text-align: center;
+}
+.title .line{
+	margin: 20px auto;
+}
+.title h1{
+	font-size: 44px;
+}
+.title p{
+	font-size: 20px;
+}
+/*----appp*/
+.app{
+	text-align: center;
+/*	background: grey;*/
+	
+}
+.app img{
+	width: 207px;
+}
+.app h1{
+	font-size: 27px;
+	font-weight: 600;
+	margin-top:56px;
+}
+.app p{
+	font-size: 14px;
+	margin-top:11px;
+}
+/*-----App----*/
+.Real-time{
+	background: #F0F0F0;
+	height: 580px;
+}
+.pic img{
+	width: 495px;
+	margin-top: 109px;
+	position: relative;
+}
+.Rl-left{
+	position: relative;
+}
+.shape{
+	position: absolute;
+	top:60px;
+	left: -77px;
+	width: 221px;
+	height: 221px;
+	background: #575A89;
+	border-radius: 50%
+}
+
+.Rl-right{
+	margin: 184px 0 156px 105px;
+}
+.Rl-right h1{
+	font-size: 40px;
+	font-weight: 600;
+/*	margin-bottom: 12px;*/
+}
+.Rl-right .line{
+	margin: 12px 0 18px 20px;
+	width: 86px;
+}
+.Rl-right p{
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0px 0 17px;
+}
+.Rl-right a{
+	font-size: 22px;
+	font-weight: 600;
+	text-decoration: none;
+
+}
+.Rl-right a:hover{
+	opacity: 0.5;
+}
+/*copyright----*/
+.copyright{
+	text-align: center;
+	margin: 36px 0 25px;
+}
+.copyright p{
+	font-size:18px;
+	font-weight: 600;
+	height: 30px;
+	color: #B7B3B3;
+}
+.copyright img{
+	width: 178px;
+}

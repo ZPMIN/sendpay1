@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.align-cen{
+	justify-content:flex-end;
+	align-content: center;
+	display:flex
+}
+.algin-bot{
+	align-items: flex-end;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-1{
+	width: 8.33%;
+}
+.col-2{
+	width: 16.66%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.33%;
+}
+.col-8{
+	width: 66.66%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.66%;
+}
+.col-12{
+	width: 100%;
+}
+/*Spaccing---*/
+.pl-30{
+	padding-left: 125px;
+}
+.p-1{
+	padding: 4px;
+}
+.py1{
+	padding: 4px 0;
+}
+.px-1{
+	padding: 0 4px;
+}
+.pl-1{
+	padding-left: 4px;
+}
+.pr-1{
+	padding-right: 4px;
+}
+.pbtr-1{
+	padding-bottom: 4px;
+}
+.py-3{
+	padding: 12px 0;
+}
+.px-3{
+	padding: 0 12px;
+}
+.py-6{
+	padding:24px 0;
+}
+.px-6{
+	padding:0 24px;
+}
+.py-18{
+	padding: 72px 0;
+}
+.py-20{
+	padding: 80px 0;
+}
+.py-22{
+	padding: 88px 0;
+}
+
+.py-28{
+	padding: 120px 0;
+}
+.py-41{
+	padding: 164px 0;
+}
+/*Margin----*/
+.mx-auto{
+	margin: 0 auto;
+}
+.mr-5{
+	margin-right: 20px;
+}
+.mt-18{
+	margin-top: 72px;
+}
